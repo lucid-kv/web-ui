@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html lang="en" class="bg-dark" data-class="bg-dark">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Responsive, Bootstrap, BS4" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <link rel="stylesheet" href="<%= BASE_URL %>css/bootstrap.css" type="text/css" />
+        <link rel="stylesheet" href="<%= BASE_URL %>css/theme.css" type="text/css" />
+        <link rel="stylesheet" href="<%= BASE_URL %>css/style.css" type="text/css" />
+        <title>Lucid KV</title>
+    </head>
+    <body class="">
+        <noscript>
+          <strong>We're sorry but Lucid KV WebUI doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+        </noscript>
+        <div id="app"></div>
+        <script src="<%= BASE_URL %>libs/jquery/dist/jquery.min.js"></script>
+        <script src="<%= BASE_URL %>libs/popper.js/dist/umd/popper.min.js"></script>
+        <script src="<%= BASE_URL %>libs/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="<%= BASE_URL %>libs/pjax/pjax.min.js"></script>
+        <script src="<%= BASE_URL %>js/ajax.js"></script>
+        <script src="<%= BASE_URL %>js/lazyload.config.js"></script>
+        <script src="<%= BASE_URL %>js/lazyload.js"></script>
+        <script src="<%= BASE_URL %>js/plugin.js"></script>
+        <script src="<%= BASE_URL %>libs/scrollreveal/dist/scrollreveal.min.js"></script>
+        <script src="<%= BASE_URL %>libs/feather-icons/dist/feather.min.js"></script>
+        <script src="<%= BASE_URL %>js/plugins/feathericon.js"></script>
+        <script src="<%= BASE_URL %>js/theme.js"></script>
+        <script src="<%= BASE_URL %>js/utils.js"></script>
+    </body>
 </html>
